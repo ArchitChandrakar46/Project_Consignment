@@ -1,0 +1,75 @@
+:root
+{
+    --black:#000000;
+    --white:#ffffff;
+    --grey:333333;
+}
+body,h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: var(--black);
+    color:var(--white);
+}
+.container
+{
+    padding: 1rem;
+}
+.mt-3
+{
+    margin-top: 3rem;
+}
+.mt-2
+{
+    margin-top: 2rem;
+}
+input
+{
+    border: solid transparent;
+    font-size: 120%;
+}
+input[type= submit]
+{
+    cursor: pointer;    
+}
+input[type = submit]
+{
+    background-color: var(--black);
+    color: var(--white);
+    border-color: var(--grey);
+
+}
+.emoji
+{
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+}
+.aliases
+{
+    text-transform: capitalize;
+    font-size: 125%;
+}
+.desc
+{
+    font-size: 125%;
+}
+.desc::first-letter
+{
+    text-transform: uppercase;
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%;   
+}
+tr,td
+{
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--white);
+
+}
